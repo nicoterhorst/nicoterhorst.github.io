@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 100%;
+}
+
 #logo {
     font-size: 32px;
     margin-top: 12px;
