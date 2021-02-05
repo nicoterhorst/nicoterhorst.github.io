@@ -30,19 +30,19 @@
     width: 100%;
 }
 
-#navigation {
+.navigation {
     text-align: center;
     font-size: 17px;
 }
 
-#navigation a {
+.navigation a {
     margin-left: 12px;
     text-decoration: none;
     color: rgb(50, 50, 50);
     padding: 5%;
 }
 
-#navigation a:hover {
+.navigation a:hover {
     color: lightcoral;
 }
 
