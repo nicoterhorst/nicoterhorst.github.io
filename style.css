@@ -2,16 +2,32 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 15pt;
 }
 
-.container {
+#top {
+    padding-top: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1.5%;
+}
+.img-fluid {
+    max-width: 15mm;
+    max-height: 15mm;
+}
+
+#top.row {
+    max-width: 100%;
+    margin: 0;
+}
+
+#main.img-fluid {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.backgroundimg img {
     width: 100%;
-}
-
-#logo {
-    font-size: 32px;
-    margin-top: 12px;
-    margin-left: 12px;
 }
 
 #navigation {
@@ -19,11 +35,17 @@
     font-size: 17px;
 }
 
-body {
-    background-color: #f1eae4;
-}
-
-a {
+#navigation a {
     margin-left: 12px;
     text-decoration: none;
+    color: rgb(50, 50, 50);
+    padding: 5%;
+}
+
+#navigation a:hover {
+    color: lightcoral;
+}
+
+#background_palms img {
+    width: 100%;
 }
